@@ -35,6 +35,17 @@ body{
     padding: 15px;
     border-radius: 15px;
 }
+.donate-yourself-button{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    background-image: linear-gradient(orange , black);
+    padding: 15px;
+    border-radius: 15px;
+    margin-left:30%;
+    
+}
 .back-img{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/donation.jpg);
     background-position: center;
@@ -125,6 +136,7 @@ input{
 #font{
     font-size:40px;
     margin-top: 25%;
+    text-align: center;
 }
 .font-two{
     font-size: 40px;
@@ -136,9 +148,48 @@ input{
     height:100%;
     background-position: cover;
     margin-top:15%;
+    border-radius: 10px;
 }
-.information-setup p{
+.heading{
+    margin-top:15%;
+    text-align:center;
+}
+.email{
+    margin-bottom:20px;
+}
+p{
     text-align: center;
-    font-weight: 600;
 }
+.email-section{
+    background-color: rgb(206, 141, 62);
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    padding-right:100px;
+    padding-left:0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgb(230, 156, 71), rgb(27, 56, 45));
 
+}
+input{
+    width:230px;
+    height: 8px;
+    padding-right: 30px;
+}
+button{
+    width:140px;
+    height:50px;
+    margin-left:-5px;
+    background-color: brown;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:20px;
+    margin-top: 10%;
+}
+i{
+    color:orange;
+}
